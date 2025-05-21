@@ -1,0 +1,145 @@
+body{
+    background-color: grey;
+}
+
+.first-quiz{
+display: flex;
+justify-content: center;
+}
+p{
+    line-height: 0.5cm;
+}
+.pulley{
+    margin-left: 2cm;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 45%;
+    padding-left: 1cm;
+    margin-top: 3cm;
+
+    
+}
+.question-1{
+    margin-top:6cm ;
+    margin-left: 1cm;
+     box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+       width: 45%;
+    padding-left: 1cm;
+    height: 30%;
+    
+}
+.machine{
+    width:5cm;
+    justify-items: center;
+    margin-left: -3cm;
+ 
+}
+.how-it-works{
+    display: flex;
+    justify-content: center;
+    gap: 2cm;
+}
+#video{
+    margin-left: 15cm;
+    height: 15cm;
+    margin-top: 3cm;
+}
+.second-quiz{
+    display: flex;
+    /* gap: 12em; */
+    justify-content: center;
+    /* margin-left: -5cm; */
+
+}
+.problem-solving-question{
+    margin-left: 5cm;
+       box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+       width: 30%;
+    padding-left: 1cm;
+    height: 30%;
+    margin-top: 3cm;
+}
+.problem-solving-answers{
+    margin-left: 14cm;
+       box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 45%;
+    padding-left: 1cm;
+}
+.estimation-hypothetical{
+    justify-items: center;
+          box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 50%;
+    padding-left: 1cm;
+   
+}
+
+
+
+ .heading{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+ 
+ } 
+
+ .first-second-attempts{
+    display: flex;
+    justify-content: center;
+   
+ }
+ .first-attempt{
+    margin-left: 9cm;
+          box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 35%;
+    padding-left: 1cm;
+ }
+ .second-attempt{
+             box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 35%;
+    padding-left: 1cm;
+    margin-left: -2cm;
+ }
+ .third-forth-attempt{
+     display: flex;
+    justify-content: center;
+   
+    
+ }
+ .third-attempt{
+      margin-left: 9cm;
+               box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 35%;
+    padding-left: 1cm;
+ }
+ .forth-attempt{
+             box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 35%;
+    padding-left: 1cm;
+    margin-left: -2cm;
+ }
+ .fifth-attempt{
+    justify-items: center;
+             box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 45%;
+    padding-left: 1cm;
+     height: 5cm;
+    
+ }
+ h1{
+    color: rgb(57,168,241);
+    font-weight: bolder;
+ }
+ h2{
+    color: rgb(57,168,241); 
+    font-weight: bold;
+ }
+ 
+
+
