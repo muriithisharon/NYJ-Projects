@@ -1,6 +1,4 @@
-body{
-    background-color: grey;
-}
+
 .navbar {
     width: 100%;
     background-color: #1976d2;
@@ -64,20 +62,22 @@ p{
     
 }
 .machine{
-    width:5cm;
+    width:3cm;
     justify-items: center;
-    margin-left: -3cm;
- 
+    margin-left:-1cm;
+  
 }
 .how-it-works{
     display: flex;
     justify-content: center;
-    gap: 2cm;
+    gap: 1cm;
+  
 }
 #video{
-    margin-left: 15cm;
+    margin-left: 20cm;
     height: 15cm;
-    margin-top: 3cm;
+    margin-top: 4cm;
+       box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 }
 .second-quiz{
     display: flex;

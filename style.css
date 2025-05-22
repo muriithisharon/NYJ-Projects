@@ -127,18 +127,22 @@
 }
 .latest-image{
     margin-left: 20rem;
+    display: flex;
+    
 }
 .latest-image img{
-    width: 60vw;
-    height: 70vh;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
 }
 .latest-text{
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: rgb(255, 254, 254);
     background-color: rgb(57, 168, 241);
-    height: 10rem;
+    height: 5rem;
+    padding: 0.5rem;
 }
 .footer{
     background-color: rgb(57, 168, 241);
