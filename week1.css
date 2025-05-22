@@ -81,9 +81,7 @@ p{
 }
 .second-quiz{
     display: flex;
-    /* gap: 12em; */
     justify-content: center;
-    /* margin-left: -5cm; */
 
 }
 .problem-solving-question{
