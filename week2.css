@@ -26,6 +26,20 @@ body {
 .navbar li {
     list-style: none;
 }
+.btn{
+    width: 5%;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.btn a:hover{
+  text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+      transition: transform 0.3s ease-out boxshadow 0.3s ease-out;
+}
 
 .navbar a {
     color: #fff;

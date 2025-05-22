@@ -1,10 +1,18 @@
 .images img {
     border-radius: 16px;
     box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
-    margin-left: 10rem;
+    margin-left: 16rem;
     max-width: 90vw;
     height: auto;
     display: block; 
+}
+.images video{
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+    margin-left: 16rem;
+    max-width: 90vw;
+    height: auto;
+    display: block;   
 }
 @media (max-width: 700px) {
     .images {
