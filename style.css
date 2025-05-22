@@ -1,0 +1,228 @@
+
+.navbar {
+    width: 100%;
+    background-color: #1976d2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.75rem 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    background: #fff;
+    color: rgb(57, 168, 241);
+}
+.weekly-challenge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.critical-thinking img{
+    width: 40vw;
+    height: 65vh;
+    
+}
+.critical-thinking{
+    background-color: rgb(57, 168, 241);
+
+}
+.heading-text{
+    background-color: rgb(57, 168, 241);
+    height: 45vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    color: white;
+    border-radius: 8rem;
+    
+}
+.featured{
+   align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    
+}
+.featured img{
+    width: 40vw;
+    height: 50vh;
+    
+}
+.featured h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+    border-radius: 8rem;;
+}
+.featured-text{
+    background-color: rgb(57, 168, 241);
+    height: 45vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    color: white;
+    border-radius: 8rem;;
+}
+.featured-challenge{
+    background-color: white;
+    width: 34vw;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    color: black;
+    border-radius: 8rem;
+    margin-left: 9rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    border: 1px solid black;
+}
+.explore-more{
+    background-color:rgb(57, 168, 241);
+    width: 18vw;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    color: white;
+    border-radius: 8rem;
+    margin-top: 5rem;
+    transition: transform 0.2s;
+}
+.featured-challenge h1 p{
+     margin-top: 15rem;
+}
+.latest-image{
+    margin-left: 20rem;
+    display: flex;
+    
+}
+.latest-image img{
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+.latest-text{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(255, 254, 254);
+    background-color: rgb(57, 168, 241);
+    height: 5rem;
+    padding: 0.5rem;
+}
+.footer{
+    background-color: rgb(57, 168, 241);
+    height: 25rem;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    font-size: 20px;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 20rem;
+}
+.newsletter{
+    background-color: white;
+    width: 25vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 9rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+.footer hr{
+    margin: 0 auto;
+    color: white;
+
+}
+.contact-info ul li{
+    list-style-type: none;
+
+}
+.home ul li {
+    list-style-type: none;
+
+}
+.input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+.newsletter-text{
+    background-color: rgb(57, 168, 241);
+    height: 2rem;
+    width: 10vw;
+    justify-content: center;
+    margin-left: 8rem;
+    border-radius: 3rem;
+    color: white;
+}
+#email{
+    width: 10vw;
+    height: 2vh;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+#button{
+    background-color: rgb(57, 168, 241);
+    width: 8vw;
+    height: 3rem;
+    justify-content: center;
+    margin-left: 1rem;
+    border-radius: 1rem ;
+    color: white;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

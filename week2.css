@@ -6,6 +6,55 @@ body {
     background: #f4f8fc;
     color: #183153;
 }
+.navbar {
+    width: 100%;
+    background-color: #1976d2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.75rem 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+.btn{
+    width: 5%;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.btn a:hover{
+  text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+      transition: transform 0.3s ease-out boxshadow 0.3s ease-out;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    background: #fff;
+    color: rgb(57, 168, 241);
+}
 
 .wrapper {
     max-width: 900px;
@@ -26,14 +75,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+.header-inner a:hover{
+color: aqua;
+display: flex;
+flex-direction: row;
 
+}
 .game-image {
-    width: 120px;
+    width: 180px;
     margin-bottom: 1rem;
     border-radius: 16px;
-    background: #fff;
     box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+.game-image:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18);
 }
 
 h1 {
